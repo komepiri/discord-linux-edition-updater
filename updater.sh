@@ -27,7 +27,7 @@ for i in "${!PACKAGES[@]}"; do
 
     # 最新ファイルダウンロード
     echo "Downloading latest $PACKAGE .deb..." | tee -a "$LOG_FILE"
-    curl -L "$URL" -o "$DEB_FILE" 2>> "$LOG_FILE"
+    curl -# -L "$URL" -o "$DEB_FILE"
 
     # ファイルのバージョンを取得
     LATEST_VERSION=$(dpkg-deb -f "$DEB_FILE" Version)
