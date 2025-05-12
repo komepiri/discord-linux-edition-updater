@@ -4,9 +4,9 @@
 
 ## 実行方法
 `
-git clone https://github.com/komepiri/discord-linux-edition-updater.git
-cd discord-linux-edition-updater
-bash updater.sh
+git clone https://github.com/komepiri/discord-linux-edition-updater.git<br>
+cd discord-linux-edition-updater<br>
+bash updater.sh<br>
 `<br>
 これだけでアップデートされるはずです<br>
 sudo使ってapt実行させてるのでパスワード聞かれる可能性があります。
