@@ -1,5 +1,6 @@
 # discord-linux-edition-updater
 自分用で作ったdebian系専用のデスクトップ版Discordのアップデーターです。<br>
+Discord Stable(通常版)、Discord PTB(パブリックテスト版)、Discord Canary(アルファ版)を一括でアップデートできます。
 一時ファイルとログはホームディレクトリに生成されます。<br>
 
 ## 実行方法
@@ -10,4 +11,4 @@ bash updater.sh
 ```
 <br>
 これだけでアップデートされるはずです<br>
-sudo使ってapt実行させてるのでパスワード聞かれる可能性があります。
+sudo使ってるのでパスワード求められたら入力してやってね
